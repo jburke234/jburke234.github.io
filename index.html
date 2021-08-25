@@ -33,20 +33,41 @@
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
             <span class="fs-4"> Logo Here</span>
           </a>-->
-          <a class="logo d-flex align-items-left mb-md-0 me-md-auto text-decoration-none" href="/">
+          <a class="logo d-flex align-items-left mb-md-0 me-md-auto text-decoration-none" href="#">
             <span class="icon-jb">JB</span>
           </a>
 
         </div>
-
         <div class="col text-center" id="nav-right">
-          <ul class="nav nav-pills align-items-right justify-content-end">
-            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">About</a></li>
-            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Portfolio</a></li>
-            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Resume</a></li>
-            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Blog</a></li>
-            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Contact</a></li>
-          </ul>
+
+          <nav>
+						<ul class="nav-list">
+							<li class="nav-list">
+								<a class="nav-about" href="#about">
+									<span class="text">About</span>
+									<span class="line color-line"></span>
+								</a>
+							</li>
+              <li class="nav-list">
+								<a class="nav-skills" href="#skills">
+									<span class="text">Skills</span>
+									<span class="line color-line"></span>
+								</a>
+							</li>
+							<li class="nav-list">
+								<a class="nav-portfolio" href="#portfolio">
+									<span class="text">Portfolio</span>
+									<span class="line color-line"></span>
+								</a>
+							</li>
+							<li class="nav-list">
+								<a class="nav-contact" href="#contact">
+									<span class="text">Contact</span>
+									<span class="line color-line"></span>
+								</a>
+							</li>
+						</ul>
+					</nav>
         </div>
 
       </div>
@@ -54,137 +75,63 @@
     <!-- Header -->   
     
     <section class="container" id="about">
-      <div id="inside-about">
-        <p>Hi, I'm James, </p>
+      <div class="text-center" id="inside-about">
+        <h2>Hi, I'm James, </h2>
+        <br>
         <p>A Vancouver based Full Stack Software Developer. <br>I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
         <p>Experienced in using Python, JavaScript, HTML,CSS, T-SQL and Git. In the process of learning BootStrap, React and MongoDB.</p>
         <p>Currently looking for exciting development opportunities in Vancouver, BC.</p>
       </div>
     </section>
     
-    <br>
-    <br>
+
+
+    <section class="container" id="skills">
+      <div class="text-center" id="inside-portfolio">
+        <h2>Skills</h2>
+        <br>
+
+      </div>
+
+    </section>
+
+
 
     <section class="container" id="portfolio">
-      <h2>Portfolio</h2> <br>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
-        <div class="col mb-4 text-center">
-          <div class="card border border-light rounded" style="width: 25rem;">
-              <img class="card-img-top" src="https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/images/csgo.png" alt="Card image cap">
-              <div class="card-body bg-light">
-                  <h5 class="card-title">CSGO Stat Tracker</h5>
-                  <p class="card-text">Uses Python to periodically make calls to Valve's SteamAPI to gather data. Data is stored in a MongoDB. Front End is made with React and D3.js</p>
-                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
-                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
-              </div>
-          </div>
-        </div>
+      <div class="text-center" id="inside-portfolio">
+        <h2>Portfolio</h2>
 
-        <div class="col mb-4 text-center">
-          <div class="card border border-light" style="width: 25rem;">
-              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
-              <div class="card-body bg-light">
-                  <h5 class="card-title">Hyper-Params</h5>
-                  <p class="card-text"> A Machine Learning project investigating the impact of different hyper-parameters on the accuracy of heart attack predictions.</p>
-                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
-                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
-              </div>
-          </div>
-        </div>
       </div>
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
-        <div class="col mb-4 text-center">
-          <div class="card border border-light" style="width: 25rem;">
-              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
-              <div class="card-body bg-light">
-                  <h5 class="card-title">Project 3</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea exercitationem </p>
-                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
-                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
-              </div>
-          </div>
-        </div>
-
-        <div class="col mb-4 text-center">
-          <div class="card border border-light" style="width: 25rem;">
-              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
-              <div class="card-body bg-light">
-                  <h5 class="card-title">Project 4</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea </p>
-                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
-                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
-              </div>
-          </div>
-        </div>
-      </div>
-
-      <p><b><i>All projects are hosted on free hosting locations and may take time to load. Please allow for this.</i></b></p>
     </section>
     
-    <br>
-    <br>
 
-    <section class="container" id="blog">
-      <h2>Blog</h2> <br>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
-        <div class="col mb-4 text-center">
-          <div class="card border border-light rounded" style="width: 25rem;">
-              <img class="card-img-top" src="https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/images/csgo.png" alt="Card image cap">
-              <div class="card-body bg-light">
-                  <h5 class="card-title">CSGO Stat Tracker</h5>
-                  <p class="card-text">Uses Python to periodically make calls to Valve's SteamAPI to gather data. Data is stored in a MongoDB. Front End is made with React and D3.js</p>
-                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
-                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
-              </div>
+
+
+
+    <section class="container" id="contact">
+      <div class="text-center" id="inside-portfolio">
+        <h2>Contact Me</h2>
+        <br>
+        <div class="row"> 
+
+          <div class="col">
+            <span class="contact-span"><img src="" alt=""></span>
+          </div>
+
+          <div class="col">
+            <span class="contact-span"><img src="" alt=""></span>
+          </div>
+
+          <div class="col">
+            <span class="contact-span"><img src="" alt=""></span>
+          </div>
+
+          <div class="col">
+            <span class="contact-span"><img src="" alt=""></span>
           </div>
         </div>
 
-        <div class="col mb-4 text-center">
-          <div class="card border border-light" style="width: 25rem;">
-              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
-              <div class="card-body bg-light">
-                  <h5 class="card-title">Hyper-Params</h5>
-                  <p class="card-text"> A Machine Learning project investigating the impact of different hyper-parameters on the accuracy of heart attack predictions.</p>
-                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
-                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
-              </div>
-          </div>
-        </div>
       </div>
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
-        <div class="col mb-4 text-center">
-          <div class="card border border-light" style="width: 25rem;">
-              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
-              <div class="card-body bg-light">
-                  <h5 class="card-title">Project 3</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea exercitationem </p>
-                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
-                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
-              </div>
-          </div>
-        </div>
-
-        <div class="col mb-4 text-center">
-          <div class="card border border-light" style="width: 25rem;">
-              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
-              <div class="card-body bg-light">
-                  <h5 class="card-title">Project 4</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea </p>
-                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
-                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <br>
-    <br>
-
-    <section class="container text-center" id="contact">
-      <h2 class="underlined">Contact Me</h2>
         
     </section>
     

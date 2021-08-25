@@ -4,8 +4,8 @@ body, html {
 }
 
 .container{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1500px;
 }
 
@@ -18,52 +18,120 @@ body, html {
     font-size: 2em;
     color:#444;
     text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+
+#header-nav-link{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color:#444;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .col{
     padding: 0;
 }
-.nav-link{
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
     text-decoration: none;
-    color: lightgrey;
+    padding: 0px 0.5em;
+}
+.nav-about{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #444;
 }
 
-.nav-link:hover{
+.nav-about:hover{
+    color:#ff7376;
+    text-decoration: underline;
+}
+
+.nav-skills{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #444;
+}
+
+.nav-skills:hover{
+    color: #507bca;
+    text-decoration: underline;
+}
+
+.nav-portfolio{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #444;
+}
+
+.nav-portfolio:hover{
+    color:#45baa8;
+    text-decoration: underline;
+}
+
+.nav-contact{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #444;
+}
+
+.nav-contact:hover{
+    color:#ffd660;
     text-decoration: underline;
 }
 
 #about{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
     background-color: #ff7376;
     color: #fff;
-    font-size: 26px;
-    padding: 2em 12.5em;
+    min-height: 150px;
+    padding: 10px 2rem;
 }
 
-#inside-about{
-    max-width: 750px;
+#skills{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    background-color: #507bca;
+    color: #fff;
+    min-height: 150px;
+    padding: 10px 2rem;
 }
 
 #portfolio{
-    background-color: #507bca;
-    color: #fff;
-    font-size: 26px;
-    padding: 2em 12.5em;
-}
-
-#blog{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
     background-color: #45baa8;
     color: #fff;
-    font-size: 26px;
-    padding: 2em 12.5em;
+    min-height: 150px;
+    padding: 10px 2rem;
 }
 
 #contact{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
     background-color: #ffd660;
     color: #fff;
-    font-size: 26px;
-    padding: 2em 12.5em;
+    min-height: 150px;
+    padding: 10px 2rem;
+}
+.contact-span{
+    background-color: #fff;
+    padding:15px;
+    border: fff;
+    border-radius: 50%;
 }
 
+.contact-span:hover{
+    background-color: #000;
+}
 #footer-para{
     color: #444;
 }
