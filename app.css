@@ -3,6 +3,9 @@ body, html {
     padding: 0;
 }
 
+.col{
+    padding: 0;
+}
 .nav-link{
     text-decoration: none;
     color: lightgrey;
