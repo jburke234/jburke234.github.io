@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/starter.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="app.css">
+    
     <title>James Burke</title>
   </head>
   <body>     
@@ -23,10 +29,14 @@
     <header class="container border-bottom">
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
         <div class="col text-center" id="nav-left">
-          <a href="/" class="d-flex align-items-left mb-md-0 me-md-auto text-dark text-decoration-none">
-            <!--<svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>-->
+          <!--<a href="/" class="d-flex align-items-left mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
             <span class="fs-4"> Logo Here</span>
+          </a>-->
+          <a class="logo d-flex align-items-left mb-md-0 me-md-auto text-decoration-none" href="/">
+            <span class="icon-jb">JB</span>
           </a>
+
         </div>
 
         <div class="col text-center" id="nav-right">
@@ -44,17 +54,19 @@
     <!-- Header -->   
     
     <section class="container" id="about">
-      <h2>Hi, </h2>
-      <p>I'm James Burke, a Full Stack Software Developer.I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
-      <p>Experienced in using Python, JavaScript, HTML,CSS, T-SQL and Git. In the process of learning BootStrap, React and MongoDB.</p>
-      <p>Currently looking for exciting development opportunities in Vancouver, BC.</p>
+      <div id="inside-about">
+        <p>Hi, I'm James, </p>
+        <p>A Vancouver based Full Stack Software Developer. <br>I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
+        <p>Experienced in using Python, JavaScript, HTML,CSS, T-SQL and Git. In the process of learning BootStrap, React and MongoDB.</p>
+        <p>Currently looking for exciting development opportunities in Vancouver, BC.</p>
+      </div>
     </section>
     
     <br>
     <br>
 
     <section class="container" id="portfolio">
-      <h2>My Portfolio</h2> <br>
+      <h2>Portfolio</h2> <br>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
         <div class="col mb-4 text-center">
           <div class="card border border-light rounded" style="width: 25rem;">
@@ -114,14 +126,66 @@
     <br>
 
     <section class="container" id="blog">
-      
+      <h2>Blog</h2> <br>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
+        <div class="col mb-4 text-center">
+          <div class="card border border-light rounded" style="width: 25rem;">
+              <img class="card-img-top" src="https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/images/csgo.png" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">CSGO Stat Tracker</h5>
+                  <p class="card-text">Uses Python to periodically make calls to Valve's SteamAPI to gather data. Data is stored in a MongoDB. Front End is made with React and D3.js</p>
+                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
+                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col mb-4 text-center">
+          <div class="card border border-light" style="width: 25rem;">
+              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">Hyper-Params</h5>
+                  <p class="card-text"> A Machine Learning project investigating the impact of different hyper-parameters on the accuracy of heart attack predictions.</p>
+                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
+                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
+        <div class="col mb-4 text-center">
+          <div class="card border border-light" style="width: 25rem;">
+              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea exercitationem </p>
+                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
+                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col mb-4 text-center">
+          <div class="card border border-light" style="width: 25rem;">
+              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">Project 4</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea </p>
+                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
+                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <br>
     <br>
 
-    <section class="container" id="contact">
-      
+    <section class="container text-center" id="contact">
+      <h2 class="underlined">Contact Me</h2>
+        
     </section>
     
     <br>
@@ -137,88 +201,6 @@
       </div>
     </footer>
     <!-- Footer -->
-    
-    <!-- Old Content -->
-
-
-    <!-- About -->
-    <section class="container py-3 mb-4 border-bottom" id="about">
-      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 d-flex justify-content-between">
-        <div class="col mb-4 text-center" id="left-box">
-          <img src="https://dummyimage.com/300x250/000/fff.jpg" alt="">
-        </div>
-
-        <div class="col mb-4 text-left" id="middle-box">
-          <div class="row mb-4 text-left" id="top-box">
-            <h2>Hi, </h2>
-            <br>
-            <p class="text-secondary">I'm James Burke, a Full Stack Software Developer.<br>I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
-          </div>
-          <div class="row mb-4 text-left" id="bottom-box">
-            <div id="left-bottom-box">
-              <p class="text-dark">-</p>
-              <p class="text-dark">Experienced in using Python, JavaScript, HTML,<br> CSS, T-SQL and Git. 
-                <br>In the process of learning BootStrap, React and MongoDB.
-              </p>
-              
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4 text-center" id="right-box">
-          <div class="row mb-4 text-center" id="top-box">
-            <h2 class="text-light"> b </h2>
-            <br>
-            <p class="text-light">I'm James Burke, a Full Stack Software Developer. I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
-          </div>
-          <div class="row mb-4 text-left" id="bottom-box">
-          <div class="row mb-4 text-left" id="right-bottom-box">
-            <p class="text-dark">-</p>
-            <p class="text-dark">Currently I'm looking for exciting development opportunities in Vancouver, BC. </p>
-            </div>
-        </div>
-      </div>
-    </section>
-    <!-- About -->
-
-    <!-- Portfolio -->
-    <section class="container py-3 mb-4 border-bottom dashed" id="portfolio">
-
-      
-
-    </section>
-    <!-- Portfolio -->
-
-    <!-- Contact -->
-    <section class="container align-items-center" id="contact">
-      <div class="card border rounded border-secondary bg-light text-center" style="width: 30rem;">
-        <h2>Contact Me</h2>
-        <div class="card-body">
-          <form>
-            <div class="form-group">
-              <label class="text-light" for="InputName1">Name</label><br>
-              <input type="text" class="form-control" id="InputName1" placeholder="Name" required>
-            </div>
-            <div class="form-group">
-              <label class="text-light" for="InputEmail1">Email address</label><br>
-              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
-            </div>
-            <div class="form-group">
-              <label class="text-light" for="InputSubject1">Subject</label><br>
-              <input type="text" class="form-control" id="InputSubject1" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-              <label class="text-light" for="InputTextarea1">Message Body...</label><br>
-              <textarea class="form-control" id="InputTextarea1" placeholder="Message Body..." rows="5" cols="25"></textarea>
-            </div>
-            <button type="submit" class="btn btn-secondary">Submit</button>
-          </form>
-          <br>
-        </div>
-      </div>
-    </section>
-    <!-- Contact -->
-
-
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
