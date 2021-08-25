@@ -4,35 +4,137 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/starter.css">
+    <link rel="stylesheet" href="app.css">
     <title>James Burke</title>
   </head>
-  <body>
-    <!--
-    <div class="container">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-          <span class="fs-4"> James Burke</span>
-        </a>
-  
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-        </ul>
-      </header>
-    </div>
-    -->
+  <body>     
+    <!-- Site Under Construction -->
     <div class="container">
       
-      <h2>Oh, hi there!</h2>
+      <h1>Oh, hi there!</h1>
 
       <p>You're here a little earlier than expected. I'm currently getting everything setup. Please check back at a later date to view the finished site.</p>
     </div>
+    <!-- Site Under Construction -->
 
+
+    <!-- Header -->
+    <header class="container d-flex flex-wrap py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-left mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <!--<svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>-->
+        <span class="fs-4"> James Burke</span>
+      </a>
+
+      <ul class="nav nav-pills align-items-right justify-content-end">
+        <li class="nav-item d-inline"><a href="#" class="nav-link active text-secondary" aria-current="page">Home</a></li>
+        <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">About</a></li>
+        <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Portfolio</a></li>
+        <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Resume</a></li>
+        <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Blog</a></li>
+        <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Contact</a></li>
+      </ul>
+    </header>
+    <!-- Header -->
+
+    <!-- About -->
+    <section class="container d-flex flex-wrap py-3 mb-4 border-bottom" id="about">
+      <div class="top-box">
+        <img src="" alt="">
+
+        <h2>Hi, </h2>
+        <br>
+        <p class="text-secondary">I'm James Burke, a Full Stack Software Developer. I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
+      </div>
+      <div class="bottom-box">
+        <div class="left-box">
+          <p class="text-dark">-</p>
+
+          <p class="text-dark">Currently I'm looking for exciting development opportunities in Vancouver, BC. </p>
+        </div>
+
+        <div class="right-box">
+          <p class="text-dark">-</p>
+
+          <p class="text-dark">Experienced in using Python, JavaScript, HTML, CSS, T-SQL and Git.
+            In the process of learning BootStrap, React and MongoDB.
+          </p>
+        </div>
+
+      </div>
+    </section>
+    <!-- About -->
+
+    <!-- Portfolio -->
+    <section class="container d-flex flex-wrap py-3 mb-4 border-bottom" id="portfolio">
+
+      <h2>My Portfolio</h2>
+      <div class="container" id="articleList">
+        <article>
+          <img src="" alt="">
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem earum assumenda iure delectus, nostrum obcaecati cumque quo atque, in laudantium eum sequi natus quisquam. Quaerat vero pariatur cum ullam nemo.</p>
+        </article>
+
+        <article>
+          <img src="" alt="">
+          <h3>Project 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis minus dignissimos atque doloribus porro neque totam accusantium perferendis similique dicta consequuntur, cumque, animi nihil tenetur, saepe quam quasi provident!</p>
+        </article>
+
+        <article>
+          <img src="" alt="">
+          <h3>Project 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus velit repellendus, excepturi quis qui, repellat cum adipisci quam aut numquam, explicabo autem quo. Est, culpa. Saepe quas modi possimus.</p>
+        </article>
+      </div>
+    </section>
+    <!-- Portfolio -->
+
+    <!-- Contact -->
+    <section class="container" id="contact">
+
+      <h2>Contact Me</h2>
+      <br>
+
+      <form class="align-items-center">
+        <div class="form-group">
+          <label for="InputName1">Subject</label>
+          <input type="text" class="form-control" id="InputName1" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+          <label for="InputEmail1">Email address</label>
+          <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="InputSubject1">Subject</label>
+          <input type="text" class="form-control" id="InputSubject1" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <label for="InputTextarea1">Message Body...</label>
+          <textarea class="form-control" id="InputTextarea1" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+      </form>
+
+    </section>
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <br>
+    <footer class="bg-secondary text-center text-lg-start">
+      <!-- Copyright & Socials -->
+      <div class="text-center p-3">
+        <p class="text-light text-center">
+          © 2021 Copyright:
+          <a class="text-light" href="https://jamesburke.dev/">jamesburke.dev</a>
+        </p>
+        <p class="text-light text-center">
+          Social Icons Go Here
+        </p>
+      </div>
+    </footer>
+    <!-- Footer -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
   </body>
