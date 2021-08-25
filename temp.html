@@ -1,139 +1,196 @@
-<!-- Header -->
-<header class="container d-flex flex-wrap py-3 mb-4 border-bottom">
-    <a href="/" class="d-flex align-items-left mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-      <!--<svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>-->
-      <span class="fs-4"> James Burke</span>
-    </a>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/starter.css">
+    <link rel="stylesheet" href="app.css">
+    <title>James Burke</title>
+  </head>
+  <body>     
+    <!-- Site Under Construction -->
+    <div class="container text-danger border-bottom border-danger">
+      
+      <h1>Oh, hi there!</h1>
 
-    <ul class="nav nav-pills align-items-right justify-content-end">
-      <li class="nav-item d-inline"><a href="#" class="nav-link active text-secondary" aria-current="page">Home</a></li>
-      <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">About</a></li>
-      <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Portfolio</a></li>
-      <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Resume</a></li>
-      <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Blog</a></li>
-      <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Contact</a></li>
-    </ul>
-  </header>
-  <!-- Header -->
-
-  <!-- About -->
-  <section class="container d-flex flex-wrap py-3 mb-4 border-bottom" id="about">
-    <div class="top-box">
-      <img src="" alt="">
-
-      <h2>Hi, </h2>
-      <br>
-      <p class="text-secondary">I'm James Burke, a Full Stack Software Developer. I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
+      <p>You're here a little earlier than expected. I'm currently getting everything setup. Please check back at a later date to view the finished site.</p>
     </div>
-    <div class="bottom-box">
-      <div class="left-box">
-        <p class="text-dark">-</p>
+    <br>
+    <br>
+    <!-- Site Under Construction -->
 
-        <p class="text-dark">Currently I'm looking for exciting development opportunities in Vancouver, BC. </p>
+    <!-- Header -->
+    <header class="container border-bottom">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
+        <div class="col text-center" id="nav-left">
+          <a href="/" class="d-flex align-items-left mb-md-0 me-md-auto text-dark text-decoration-none">
+            <!--<svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>-->
+            <span class="fs-4"> James Burke</span>
+          </a>
+        </div>
+
+        <div class="col text-center" id="nav-right">
+          <ul class="nav nav-pills align-items-right justify-content-end">
+            <li class="nav-item d-inline"><a href="#" class="nav-link active text-secondary" aria-current="page">Home</a></li>
+            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">About</a></li>
+            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Portfolio</a></li>
+            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Resume</a></li>
+            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Blog</a></li>
+            <li class="nav-item d-inline"><a href="#" class="nav-link text-secondary">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </header>
+    <!-- Header -->
+
+    <!-- About -->
+    <section class="container py-3 mb-4 border-bottom" id="about">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 d-flex justify-content-between">
+        <div class="col mb-4 text-center" id="left-box">
+          <img src="https://dummyimage.com/300x250/000/fff.jpg" alt="">
+        </div>
+
+        <div class="col mb-4 text-left" id="middle-box">
+          <div class="row mb-4 text-left" id="top-box">
+            <h2>Hi, </h2>
+            <br>
+            <p class="text-secondary">I'm James Burke, a Full Stack Software Developer.<br>I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
+          </div>
+          <div class="row mb-4 text-left" id="bottom-box">
+            <div id="left-bottom-box">
+              <p class="text-dark">-</p>
+              <p class="text-dark">Experienced in using Python, JavaScript, HTML,<br> CSS, T-SQL and Git. 
+                <br>In the process of learning BootStrap, React and MongoDB.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 text-center" id="right-box">
+          <div class="row mb-4 text-center" id="top-box">
+            <h2 class="text-light"> b </h2>
+            <br>
+            <p class="text-light">I'm James Burke, a Full Stack Software Developer. I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
+          </div>
+          <div class="row mb-4 text-left" id="bottom-box">
+          <div class="row mb-4 text-left" id="right-bottom-box">
+            <p class="text-dark">-</p>
+            <p class="text-dark">Currently I'm looking for exciting development opportunities in Vancouver, BC. </p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+
+    <!-- Portfolio -->
+    <section class="container py-3 mb-4 border-bottom dashed" id="portfolio">
+
+      <div>
+        <h2>My Portfolio</h2> <br>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 d-flex justify-content-between">
+        <div class="col mb-4 text-center">
+          <div class="card border border-light" style="width: 15rem;">
+              <img class="card-img-top" src="https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/images/csgo.png" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">CSGO Stat Tracker</h5>
+                  <p class="card-text">Uses Python to periodically make calls to Valve's SteamAPI to gather data. Data is stored in a MongoDB. Front End is made with React and D3.js</p>
+                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
+                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col mb-4 text-center">
+          <div class="card border border-light" style="width: 15rem;">
+              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">Hyper-Params</h5>
+                  <p class="card-text"> A Machine Learning project investigating the impact of different hyper-parameters on the accuracy of heart attack predictions.</p>
+                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
+                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col mb-4 text-center">
+          <div class="card border border-light" style="width: 15rem;">
+              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea exercitationem </p>
+                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
+                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col mb-4 text-center">
+          <div class="card border border-light" style="width: 15rem;">
+              <img class="card-img-top" src="https://dummyimage.com/215x200/000/fff.jpg" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">Project 4</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea </p>
+                  <a href="#" target="_blank" class="btn btn-secondary">Live Site</a>
+                  <a href="#" target="_blank" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+        </div>
       </div>
 
-      <div class="right-box">
-        <p class="text-dark">-</p>
+      <p><b><i>All projects are hosted on free hosting locations and may take time to load. Please allow for this.</i></b></p>
 
-        <p class="text-dark">Experienced in using Python, JavaScript, HTML, CSS, T-SQL and Git.
-          In the process of learning BootStrap, React and MongoDB.
+    </section>
+    <!-- Portfolio -->
+
+    <!-- Contact -->
+    <section class="container align-items-center" id="contact">
+      <div class="card border rounded border-secondary bg-light text-center" style="width: 30rem;">
+        <h2>Contact Me</h2>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label class="text-light" for="InputName1">Name</label><br>
+              <input type="text" class="form-control" id="InputName1" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <label class="text-light" for="InputEmail1">Email address</label><br>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <label class="text-light" for="InputSubject1">Subject</label><br>
+              <input type="text" class="form-control" id="InputSubject1" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <label class="text-light" for="InputTextarea1">Message Body...</label><br>
+              <textarea class="form-control" id="InputTextarea1" placeholder="Message Body..." rows="5" cols="25"></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </form>
+          <br>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <br>
+    <footer class="bg-secondary text-center text-lg-start">
+      <!-- Copyright & Socials -->
+      <div class="text-center p-3">
+        <p class="text-light text-center">
+          © 2021 Copyright:
+          <a class="text-light" href="https://jamesburke.dev/">jamesburke.dev</a>
+        </p>
+        <p class="text-light text-center">
+          Social Icons Go Here
         </p>
       </div>
+    </footer>
+    <!-- Footer -->
 
-    </div>
-  </section>
-  <!-- About -->
-
-  <!-- Portfolio -->
-  <section class="container d-flex flex-wrap py-3 mb-4 border-bottom" id="portfolio">
-
-    <h2>My Portfolio</h2>
-    <div class="container" id="articleList">
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Project 1</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea exercitationem tempora, ad expedita maiores eius sunt impedit, reprehenderit nihil iusto vitae?</p>
-                <a href="#" target="_blank" class="btn btn-primary">Live Site</a>
-                <a href="#" target="_blank" class="btn btn-primary">Code</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Project 2</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea exercitationem tempora, ad expedita maiores eius sunt impedit, reprehenderit nihil iusto vitae?</p>
-                <a href="#" target="_blank" class="btn btn-primary">Live Site</a>
-                <a href="#" target="_blank" class="btn btn-primary">Code</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Project 3</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea exercitationem tempora, ad expedita maiores eius sunt impedit, reprehenderit nihil iusto vitae?</p>
-                <a href="#" target="_blank" class="btn btn-primary">Live Site</a>
-                <a href="#" target="_blank" class="btn btn-primary">Code</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Project 4</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iusto. Sunt, molestias. Eveniet veritatis, nemo eum harum ea exercitationem tempora, ad expedita maiores eius sunt impedit, reprehenderit nihil iusto vitae?</p>
-                <a href="#" target="_blank" class="btn btn-primary">Live Site</a>
-                <a href="#" target="_blank" class="btn btn-primary">Code</a>
-            </div>
-        </div>
-  </section>
-  <!-- Portfolio -->
-
-  <!-- Contact -->
-  <section class="container" id="contact">
-
-    <h2>Contact Me</h2>
-    <br>
-
-    <form class="align-items-center">
-      <div class="form-group">
-        <label for="InputName1">Subject</label>
-        <input type="text" class="form-control" id="InputName1" placeholder="Name" required>
-      </div>
-      <div class="form-group">
-        <label for="InputEmail1">Email address</label>
-        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="InputSubject1">Subject</label>
-        <input type="text" class="form-control" id="InputSubject1" placeholder="Subject" required>
-      </div>
-      <div class="form-group">
-        <label for="InputTextarea1">Message Body...</label>
-        <textarea class="form-control" id="InputTextarea1" rows="5"></textarea>
-      </div>
-      <button type="submit" class="btn btn-secondary">Submit</button>
-    </form>
-
-  </section>
-  <!-- Contact -->
-
-  <!-- Footer -->
-  <br>
-  <footer class="bg-secondary text-center text-lg-start">
-    <!-- Copyright & Socials -->
-    <div class="text-center p-3">
-      <p class="text-light text-center">
-        © 2021 Copyright:
-        <a class="text-light" href="https://jamesburke.dev/">jamesburke.dev</a>
-      </p>
-      <p class="text-light text-center">
-        Social Icons Go Here
-      </p>
-    </div>
-  </footer>
-  <!-- Footer -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+  </body>
+</html>

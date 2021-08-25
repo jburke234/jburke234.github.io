@@ -14,3 +14,35 @@ body, html {
 .nav-link:hover{
     text-decoration: underline;
 }
+
+#about{
+    background-color: #ff7376;
+    color: #fff;
+    padding:10em;
+}
+
+#portfolio{
+    background-color: #507bca;
+    color: #fff;
+    padding:10em;
+}
+
+#blog{
+    background-color: #45baa8;
+    color: #fff;
+    padding:10em;
+}
+
+#contact{
+    background-color: #ffd660;
+    color: #fff;
+    padding:10em;
+}
+
+#footer-para{
+    color: #444;
+}
+
+#footer-link{
+    color: #444;
+}
