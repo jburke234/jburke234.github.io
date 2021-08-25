@@ -1,5 +1,6 @@
 :root{
     --containerPadding: 10px 5em;
+    --containerMinHeight: 250px;
 }
 
 body, html {
@@ -96,7 +97,7 @@ body, html {
     font-size: 1em;
     background-color: #ff7376;
     color: #fff;
-    min-height: 150px;
+    min-height: var(--containerMinHeight);
     padding: var(--containerPadding);
 }
 
@@ -105,7 +106,7 @@ body, html {
     font-size: 1em;
     background-color: #507bca;
     color: #fff;
-    min-height: 150px;
+    min-height: var(--containerMinHeight);
     padding: var(--containerPadding);
 }
 
@@ -114,7 +115,7 @@ body, html {
     font-size: 1em;
     background-color: #45baa8;
     color: #fff;
-    min-height: 150px;
+    min-height: var(--containerMinHeight);
     padding: var(--containerPadding);
 }
 
@@ -123,7 +124,7 @@ body, html {
     font-size: 1em;
     background-color: #ffd660;
     color: #fff;
-    min-height: 150px;
+    min-height: var(--containerMinHeight);
     padding: var(--containerPadding);
 }
 .contact-span{
