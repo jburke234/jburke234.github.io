@@ -1,3 +1,7 @@
+:root{
+    --containerPadding: 10px 5em;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -93,7 +97,7 @@ body, html {
     background-color: #ff7376;
     color: #fff;
     min-height: 150px;
-    padding: 10px 2rem;
+    padding: var(--containerPadding);
 }
 
 #skills{
@@ -102,7 +106,7 @@ body, html {
     background-color: #507bca;
     color: #fff;
     min-height: 150px;
-    padding: 10px 2rem;
+    padding: var(--containerPadding);
 }
 
 #portfolio{
@@ -111,7 +115,7 @@ body, html {
     background-color: #45baa8;
     color: #fff;
     min-height: 150px;
-    padding: 10px 2rem;
+    padding: var(--containerPadding);
 }
 
 #contact{
@@ -120,7 +124,7 @@ body, html {
     background-color: #ffd660;
     color: #fff;
     min-height: 150px;
-    padding: 10px 2rem;
+    padding: var(--containerPadding);
 }
 .contact-span{
     background-color: #fff;
