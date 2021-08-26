@@ -204,22 +204,6 @@ body, html {
     color: #444;
 }
 
-.card{
-    border-radius: 5%;
-    margin: 5px;
-    min-height: 390px;
-    
-}
-
-.card-body{
-    min-height: 185px;
-    background-color: #fff;
-}
-
-.card-text{
-    color: #444;
-}
-
 .btn{
     background-color: #fff ;
     border-color: #444;
@@ -229,4 +213,31 @@ body, html {
     color: #fff;
     background-color: #45baa8;
     border-color: #45baa8;
+}
+
+.card{
+    border-radius: 5%;
+    margin: auto;
+    margin-bottom: 10px;
+    min-height: 390px;
+    background-color: #fff;
+    
+}
+
+.card-body{
+    min-height: 185px;
+    
+}
+
+.card-text{
+    color: #444;
+}
+.card-title{
+    color: #444;
+}
+
+.card-deck{
+    display:flex;
+    justify-content: space-evenly;
+    
 }
