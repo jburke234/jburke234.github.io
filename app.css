@@ -1,10 +1,11 @@
 :root{
-    --containerPadding: 10px 5em;
-    --containerMinHeight: 250px;
+    --containerPadding: 2.5em 5.5em;
+    --containerMinHeight: 400px;
 }
 
 body, html {
     margin: 0;
+
     padding: 0;
 }
 
@@ -18,6 +19,10 @@ body, html {
     max-width: 1500px;
 }
 
+#header-container{
+    margin-top: 1em;
+}
+
 .icon-jb{
     font-family: 'Lato', sans-serif;
     font-size: 2em;
@@ -26,10 +31,14 @@ body, html {
     padding-bottom: 10px;
 }
 
+.icon-jb:hover{
+    color:#ff7376;
+}
+
 
 #header-nav-link{
     font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     color:#444;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -39,21 +48,55 @@ body, html {
     padding: 0;
 }
 .nav-list{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px;
+    padding-top: 5px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.nav-list-item{
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
+    align-items: center;
     text-decoration: none;
     padding: 0px 0.5em;
+    margin-bottom: 0px;
 }
+
+.nav-list-first{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 0.5em 0px 0px;
+    margin-bottom: 0px;
+}
+
+.nav-list-last{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 0px 0px 0.5em;
+    margin-bottom: 0px;
+}
+
 .nav-about{
     font-family: 'Lato', sans-serif;
     font-size: 1.5em;
     text-decoration: none;
     color: #444;
+    transition: color 2s ease-out;
+    transition: text-decoration 2s ease-out;
 }
 
 .nav-about:hover{
     color:#ff7376;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .nav-skills{
@@ -66,6 +109,7 @@ body, html {
 .nav-skills:hover{
     color: #507bca;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .nav-portfolio{
@@ -78,6 +122,7 @@ body, html {
 .nav-portfolio:hover{
     color:#45baa8;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .nav-contact{
@@ -90,6 +135,7 @@ body, html {
 .nav-contact:hover{
     color:#ffd660;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #about{
@@ -142,5 +188,22 @@ body, html {
 }
 
 #footer-link{
+    color: #444;
+}
+
+.card{
+    border-radius: 5%;
+    border-color: #fff;
+    border-width: 2px;
+    margin: 5px;
+    min-height: 390px;
+    
+}
+.card-body{
+    min-height: 185px;
+    background-color: #fff;
+}
+
+.card-text{
     color: #444;
 }

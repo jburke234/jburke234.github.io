@@ -14,19 +14,9 @@
     <title>James Burke</title>
   </head>
   <body>     
-    <!-- Site Under Construction -->
-    <div class="container text-danger border-bottom border-danger">
-      
-      <h1>Oh, hi there!</h1>
-
-      <p>You're here a little earlier than expected. I'm currently getting everything setup. Please check back at a later date to view the finished site.</p>
-    </div>
-    <br>
-    <br>
-    <!-- Site Under Construction -->
 
     <!-- Header -->
-    <header class="container border-bottom">
+    <header class="container border-bottom" id="header-container">
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
         <div class="col text-center" id="nav-left">
           <!--<a href="/" class="d-flex align-items-left mb-md-0 me-md-auto text-dark text-decoration-none">
@@ -34,7 +24,7 @@
             <span class="fs-4"> Logo Here</span>
           </a>-->
           <a class="logo d-flex align-items-left mb-md-0 me-md-auto text-decoration-none" href="#">
-            <span class="icon-jb">JB</span>
+            <span class="icon-jb"><b>JB</b></span>
           </a>
 
         </div>
@@ -42,28 +32,24 @@
 
           <nav>
 						<ul class="nav-list">
-							<li class="nav-list">
+							<li class="nav-list-first">
 								<a class="nav-about" href="#about">
-									<span class="text">About</span>
-									<span class="line color-line"></span>
+									<span class="text"><b>About</b></span>
 								</a>
 							</li>
-              <li class="nav-list">
+              <li class="nav-list-item">
 								<a class="nav-skills" href="#skills">
-									<span class="text">Skills</span>
-									<span class="line color-line"></span>
+									<span class="text"><b>Skills</b></span>
 								</a>
 							</li>
-							<li class="nav-list">
+							<li class="nav-list-item">
 								<a class="nav-portfolio" href="#portfolio">
-									<span class="text">Portfolio</span>
-									<span class="line color-line"></span>
+									<span class="text"><b>Portfolio</b></span>
 								</a>
 							</li>
-							<li class="nav-list">
+							<li class="nav-list-last">
 								<a class="nav-contact" href="#contact">
-									<span class="text">Contact</span>
-									<span class="line color-line"></span>
+									<span class="text"><b>Contact</b></span>
 								</a>
 							</li>
 						</ul>
@@ -76,10 +62,9 @@
     
     <section class="container" id="about">
       <div class="text-center" id="inside-about">
-        <h2>Hi, I'm James, </h2>
+        <h2>Hi, I'm James</h2>
         <br>
         <p>A Vancouver based Full Stack Software Developer. <br>I hold a BSc. in Software Development from Munster Technical University in Ireland.</p>
-        <p>Experienced in using Python, JavaScript, HTML,CSS, T-SQL and Git. In the process of learning BootStrap, React and MongoDB.</p>
         <p>Currently looking for exciting development opportunities in Vancouver, BC.</p>
       </div>
     </section>
@@ -90,7 +75,67 @@
       <div class="text-center" id="inside-portfolio">
         <h2>Skills</h2>
         <br>
+        <p>Include Tech Skill Icons Here</p>
+        <br>
+        <h3>Experienced In</h3>
+        <br>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-8 row-cols-xl-8 d-flex justify-content-between">
 
+          <div class="col text-center">
+            Python
+          </div>
+          <div class="col text-center">
+            JavaScript
+          </div>
+          <div class="col text-center">
+            HTML
+          </div>
+          <div class="col text-center">
+            CSS
+          </div>
+          <div class="col text-center">
+            SQL
+          </div>
+          <div class="col text-center">
+            Git
+          </div>
+          <div class="col text-center">
+            
+          </div>
+          <div class="col text-center">
+            
+          </div>
+        </div>
+        <br>
+        <h3>Currently Learning</h3>
+        <br>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-8 row-cols-xl-8 d-flex justify-content-between">
+
+          <div class="col text-center">
+            React
+          </div>
+          <div class="col text-center">
+            Bootstrap
+          </div>
+          <div class="col text-center">
+            MongoDB
+          </div>
+          <div class="col text-center">
+            
+          </div>
+          <div class="col text-center">
+            
+          </div>
+          <div class="col text-center">
+            
+          </div>
+          <div class="col text-center">
+            
+          </div>
+          <div class="col text-center">
+            
+          </div>
+        </div>
       </div>
 
     </section>
@@ -100,6 +145,64 @@
     <section class="container" id="portfolio">
       <div class="text-center" id="inside-portfolio">
         <h2>Portfolio</h2>
+
+        <!-- Row 1 -->
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
+
+          <div class="col text-center">
+            <div class="card">
+              <img class="card-img-top" src="https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/images/csgo.png" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">CSGO Stat Tracker</h5>
+                  <p class="card-text">Uses Python to periodically make calls to Valve's SteamAPI to gather data. Data is stored in a MongoDB. Front End is made with React and D3.js</p>
+                  <a href="#" target="_blank" class="btn">Live Site</a>
+                  <a href="#" target="_blank" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col text-center">
+            <div class="card">
+              <span class="img-span">
+                <img class="card-img-top" src="https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/images/csgo.png" alt="Card image cap">
+              </span>
+              <div class="card-body bg-light">
+                  <h5 class="card-title">Hyper-Params</h5>
+                  <p class="card-text">A Machine Learning project investigating the impact of different hyper-parameters on the accuracy of heart attack predictions.</p>
+                  <a href="#" target="_blank" class="btn">Live Site</a>
+                  <a href="#" target="_blank" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <!-- Row 2 -->
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-between">
+          <div class="col text-center">
+            <div class="card">
+              <img class="card-img-top" src="https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/images/csgo.png" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde quod, nam amet consectetur adipisicing elit. Unde quod, nam </p>
+                  <a href="#" target="_blank" class="btn">Live Site</a>
+                  <a href="#" target="_blank" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col text-center">
+            <div class="card">
+              <img class="card-img-top" src="https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/images/csgo.png" alt="Card image cap">
+              <div class="card-body bg-light">
+                  <h5 class="card-title">Project 4</h5>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde quod, nam amet consectetur adipisicing elit. Unde quod, nam </p>
+                  <a href="#" target="_blank" class="btn">Live Site</a>
+                  <a href="#" target="_blank" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
 
         <p><b><i>I'm currently working to get live versions of my projects available. Refer to the README of each for previews of the sites</i></b></p>
       </div>
