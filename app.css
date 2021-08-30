@@ -186,24 +186,27 @@ body, html {
     min-height: var(--containerMinHeight);
     padding: var(--containerPadding);
 }
-.contact-span{
-    background-color: #fff;
-    padding:25px;
-    border: #fff;
-    border-radius: 50%;
-    min-width: 300px;
 
-    max-width: 500px;
+.dot {
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.dot:hover{
+    background-color: #000;
 }
 
 .contact-img{
-    max-width: 100px;
-    max-height: 100px;
-    background-color: fff;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    display: flex;
+    justify-content: space-between;
 }
-.contact-span:hover{
-    background-color: #000;
-}
+
 #footer-para{
     color: #444;
 }
@@ -251,3 +254,4 @@ body, html {
     justify-content: space-evenly;
     
 }
+
