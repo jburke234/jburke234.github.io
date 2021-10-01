@@ -178,6 +178,10 @@ body, html {
     padding: var(--containerPadding);
 }
 
+#inside-portfolio-a{
+    color: #fff;
+}
+
 #contact{
     font-family: 'Lato', sans-serif;
     font-size: 1em;
@@ -206,6 +210,11 @@ body, html {
     display: flex;
     justify-content: space-between;
 }
+
+.contact-a{
+    color: #fff;
+}
+
 
 #footer-para{
     color: #444;
