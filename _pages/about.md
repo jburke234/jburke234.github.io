@@ -3,8 +3,6 @@ layout: page
 title: About
 ---
 
-[![LinkedIn](https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/_assets/icons/linkedin.png)](https://www.linkedin.com/in/james-burke-dev/) [![Github](https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/_assets/icons/github.png)](https://github.com/jburke234) [![Mail](https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/_assets/icons/mail.png)](mailto:info@jamesburke.dev)
-
 # About Me
 
 Hi, I'm James.
