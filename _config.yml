@@ -1,30 +1,30 @@
-site: Ultra
-url: https://example.com
-title: Ultra
-description: Ultra - Super fast Jekyll theme, weighs under 2kb
+site: James Burke
+url: https://jamesburke.dev
+title: James Burke
+description: Portfolio website for James Burke
 twitter:
   username: yourusername
   card: summary
 
 permalink: pretty
 
-paginate:            1000
-paginate_path:       "/page:num/"
-baseurl:             ""
-  
+paginate: 1000
+paginate_path: "/page:num/"
+baseurl: ""
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   pages:
@@ -36,32 +36,28 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       path: ""
       type: "projects"
     values:
       layout: "project"
-      
+
   - scope:
       path: "assets/images"
     values:
