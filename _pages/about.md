@@ -3,28 +3,32 @@ layout: page
 title: About
 ---
 
-[![LinkedIn](https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/_assets/icons/linkedin.png){width=25%,height:30px}](https://www.linkedin.com/in/james-burke-dev/)
-[![Github](https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/_assets/icons/github.png){width=25%,height:30px}](https://github.com/jburke234)
-[![Mail](https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/_assets/icons/mail.png){width=25%,height:30px}](mailto:info@jamesburke.dev)
+[![LinkedIn](https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/_assets/icons/linkedin.png)](https://www.linkedin.com/in/james-burke-dev/) [![Github](https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/_assets/icons/github.png)](https://github.com/jburke234) [![Mail](https://raw.githubusercontent.com/jburke234/jburke234.github.io/master/_assets/icons/mail.png)](mailto:info@jamesburke.dev)
 
-## About Me
+# About Me
 
-Hi, I'm James
+Hi, I'm James.
 
-A Software Developer with particular interest in Data Science, Machine Learning, AI and Cloud Technologies. I'm currently based in and looking for exciting development opportunities in Vancouver, BC. If you know of any feel free to reach out!
+I'm a Software Developer originally from Ireland, living in Vancouver, BC. My development interests centre around the following topics Data Structures & Algorithms, Data Science, Machine Learning, AI and Cloud Technologies. I'm currently looking for exciting development opportunities in Vancouver. If you know of any feel free to reach out!
 
-I hold a BSc. in Software Development, awarded by Munster Technical University in Ireland. I also have aspirations of completing an MSc. in AI in the near future.
+I hold a BSc. in Software Development, awarded in 2019 by Munster Technical University in Ireland. I have aspirations of furthering my qualifications by undertaking an MSc. in AI and the AWS certifications.
 
 As a person, I'm an organised, self starter with a passion for continual growth. Outside of work my hobbies are soccer, music and programming. I do also enjoy a book or two from time to time, but these are largely focussed on programming with the odd science fiction one thrown in.
 
-## Work Experience
+--
+
+# Work Experience
+
+-For further detail on of my positions held, please refer to my resume [here]().
 
 #### ScalePad - Technical Support Specialist
 
 Feb 2022 to Present
 
 I'm currently working as part of the Success team at ScalePad, helping to support the Backup Radar product.
-Day to day, I handle support queries for a large number of partners. These queries can range from short and simple like providing documentation, to complex tasks such as defining parser logic. The role has taught me a great deal in the management of relationships with clients and best practices in supporting them to achieve their goals.
+Day to day, I handle support queries for a large number of partners (mainly MSPs). These queries can range from short and simple like providing documentation, to complex tasks such as defining new parser logic or troubleshooting API integrations.
+
+The role has taught me a great deal of techinical skills: . In addition to these technical skills, the role has bettered my soft skils such as the management of relationships with clients and best practices in supporting them to achieve their goals as well as teamwork and communication.
 
 #### St Paul's Garda Credit Union - IT Support Engineer
 
