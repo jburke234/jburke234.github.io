@@ -3,13 +3,13 @@ layout: page
 title: Resume
 ---
 
-# SUMMARY
+# Summary
 
 Dedicated Software Engineer with history of meeting company goals utilizing consistent and organized practices. Skilled in working under pressure and adapting to new situations and challenges to best enhance the organisation.
 
 # Education
 
-Munster Technical University, Cork, Ireland
+Munster Technical University, Cork, Ireland  
 Bachelor of Science Software Development, 09/2019
 
 # Work Experience
@@ -47,12 +47,12 @@ Provided technical support and training for end users.
 
 # SKILLS
 
-Object-Oriented Programming: Python, Java
-Scripting: Python, PowerShell
-Web Development: JavaScript, HTML, CSS
-RDMS Development and SQL
-Source and Version Control: Git, Github
-Account Administration: Azure AD, Active Directory
-Software Testing and Validation
-Data Structures and Algorithms
+Object-Oriented Programming: Python, Java  
+Scripting: Python, PowerShell  
+Web Development: JavaScript, HTML, CSS  
+RDMS Development and SQL  
+Source and Version Control: Git, Github  
+Account Administration: Azure AD, Active Directory  
+Software Testing and Validation  
+Data Structures and Algorithms  
 Continuous Integration Systems: Jenkins
