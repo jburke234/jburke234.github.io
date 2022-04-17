@@ -13,4 +13,4 @@ I hold a BSc. in Software Development, awarded in 2019 by Munster Technical Univ
 
 As a person, I'm an organised, self starter with a passion for continual growth. Outside of work my hobbies are soccer, music and programming. I do also enjoy a book or two from time to time, but these are largely focussed on programming with the odd science fiction one thrown in.
 
---
+If you want more formal information, please check out my resume [here](linkurl)

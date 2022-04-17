@@ -18,12 +18,10 @@ Bachelor of Science Software Development, 09/2019
 
 Feb 2022 to Present
 
-- Provide Tier 1 & 2 IT support for the Backup Radar product
+- Provide Tier 1 & 2 support for partner MSPs for the Backup Radar product
 - Develop support documentation for end users
 - Develop parser logic for unsupported backup application
 - Troubleshoot API errors
-- I'm currently working as part of the Success team at ScalePad, helping to support the Backup Radar product.
-  Day to day, I handle support queries for a large number of partners (mainly MSPs). These queries can range from short and simple like providing documentation, to complex tasks such as defining new parser logic or troubleshooting API integrations.
 
 In addition to these technical skills, the role has bettered my soft skils such as the management of relationships with clients and best practices in supporting them to achieve their goals as well as teamwork and communication.
 
